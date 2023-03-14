@@ -1,0 +1,63 @@
+{
+  "name": "poker-planning-app",
+  "version": "1.0.0",
+  "description": "Application to create a list of tasks todo and send notification about them to subscribers",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next build start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/helper-environment-visitor": "^7.16.7",
+    "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "^7.16.7",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.1",
+    "@mui/material": "^5.11.5",
+    "@teamsupercell/typings-for-css-modules-loader": "^2.5.1",
+    "acorn-import-assertions": "^1.8.0",
+    "core-js": "^3.18.1",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-stomp-hooks": "^2.1.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "@types/react-router-dom": "^5.1.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^4.0.0",
+    "css-modules-typescript-loader": "^4.0.1",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "html-webpack-plugin": "^5.3.1",
+    "path": "^0.12.7",
+    "prettier": "^2.3.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnov89/poker-planning-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnov89/poker-planning-app/issues"
+  },
+  "homepage": "https://github.com/bnov89/poker-planning-app#readme"
+}

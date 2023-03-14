@@ -1,0 +1,6 @@
+# IntelliJ
+.idea
+
+# React
+node_modules
+.next

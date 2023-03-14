@@ -1,0 +1,3 @@
+const HOME = "/";
+
+export { HOME };
